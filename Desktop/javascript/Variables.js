@@ -19,3 +19,15 @@ console.log(z);
  // `let` allows reassignment and blocked spope , caanot be redeclared
   // `const` cannot be reassigned and blocked scope and cannot be redeclared
   //var is function scoped can be redeclared
+
+
+//   JavaScript moves variable declarations to the top of their scope during compilation.
+
+// var is hoisted with undefined.
+// let and const are hoisted but remain in the Temporal Dead Zone (TDZ).
+
+// console.log(x); // undefined
+// var x = 5;
+
+// console.log(y); // ReferenceError (TDZ)
+// let y = 10;
