@@ -1,0 +1,10 @@
+
+function outer(arg){
+    let num=10;
+    return function inner(){
+        return num+arg;
+    }
+}
+
+const ans=outer(10);
+console.log(ans());
