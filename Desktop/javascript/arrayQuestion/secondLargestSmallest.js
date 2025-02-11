@@ -12,6 +12,7 @@
 
 //second largest
 const arr=[10,2,5,20,30,40,50,60];
+
 let maxi=-Infinity;
 let secMax=-Infinity;
 for(let i=1;i<arr.length;i++){

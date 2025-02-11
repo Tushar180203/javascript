@@ -5,9 +5,9 @@ const promise= new Promise((resolve,reject)=>{
     reject('rejected');
 })
 
-console.log(promise.then(()=>{
-    console.log('hii');
-}));
-console.log(promise.catch(()=>{
-    console.log('error');
-}))
+promise.then((data)=>{
+    console.log(data);
+});
+promise.catch((err)=>{
+    console.log(err);
+});
